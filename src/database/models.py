@@ -12,4 +12,3 @@ class Users(Base):
     password = Column(String, index=True)
     email = Column(String, index=True)
     create_at = Column(DateTime, default=func.now())
-    czxc = Column(String, index=True)
